@@ -1,0 +1,144 @@
+HTTP/1.1 200 OK
+Server: nginx/1.26.3 (Ubuntu)
+Date: Fri, 19 Jun 2026 05:52:46 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 11098
+Connection: keep-alive
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+plugin_front_cache: TRUE
+link: </assets/themes/camaleon_first/assets/css/main-41052d2acf5add707cadf8d1c12a89a9daca83fb8178fdd5c9105dc6c566d25d.css>; rel=preload; as=style; nopush,</assets/themes/camaleon_first/assets/js/main-2d9adb006939c9873a62dff797c5fc28dff961487a2bb550824c5bc6b8dbb881.js>; rel=preload; as=script; nopush
+vary: Accept
+etag: W/"d639d91909d9a05de3153a3f643d7b50"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _factsapp_session=N6puNLRKJzkzpoFC4CsDnvsQ0L6FPZwLDoCSCkFWqx0b6VmT4J1ZXgQy8ZTdH%2F8DBS3Y71Ix5MeRP12yMSKXC2aRliKVs1bLIeqvXwzSk9q5Ggne6o66%2Ber7PGDesBvnWugQTGzBEb9RQH2ASv%2F7%2F5KG8%2BOZbetzJryNQDVcTgS7Qs%2F5%2BYTPYEJiHnYGMaxqglhbXaYJl9zyWtyXddEugFdBQihOQT0F%2BACQRVGeGOfEEx1BDMQBHG0c8dopRTsL9R0y3jb8nW6G2RZeqSU1wbLk3igiq66Law%3D%3D--BrgTLGRD51Lbjm%2BX--QFZ0afkm00LD7yYdv0odLQ%3D%3D; path=/; httponly; samesite=lax
+x-request-id: 6e605d17-971b-46b1-adda-40753b9e10fe
+x-runtime: 0.231218
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META SECTION -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- END META SECTION -->
+
+    <link rel="stylesheet" href="/assets/themes/camaleon_first/assets/css/main-41052d2acf5add707cadf8d1c12a89a9daca83fb8178fdd5c9105dc6c566d25d.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat%3A400%2C700&ver=4.2.2">
+    <script src="/assets/themes/camaleon_first/assets/js/main-2d9adb006939c9873a62dff797c5fc28dff961487a2bb550824c5bc6b8dbb881.js"></script>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7x0HQXQX_mw2Gyio9B6VWoda6s8dzjcfZNDSjsUue4WC9NlPCvhxo_i9TKdnoz9L2chKOiRP7aU6Rx-pt4F8Bw" />
+<title>facts</title>
+<link rel="icon" type="image/x-icon" href="http://facts.htb/randomfacts/primary-question-mark.png">
+<link rel="alternate" type="application/rss+xml" href="http://facts.htb/rss">
+<meta property="og:title" content="facts">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://facts.htb/">
+<meta property="og:image" content="http://facts.htb/randomfacts/dogspoop.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="facts">
+<meta name="twitter:url" content="http://facts.htb/">
+<meta name="twitter:image" content="http://facts.htb/randomfacts/dogspoop.png">
+<meta name="twitter:domain" content="facts.htb">
+<meta name="image" content="http://facts.htb/randomfacts/dogspoop.png">
+<meta name="url" content="http://facts.htb/">
+<script>var ROOT_URL = 'http://facts.htb/'; var LANGUAGE = 'en'; </script>
+
+
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="home-page">
+    <header>
+        <nav role="navigation">
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div style="position: absolute; top: 0;"></div>
+                    <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://facts.htb/" title="facts" rel="homepage"><b>facts</b></a>
+                    </div>
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+                        <ul class='nav navbar-nav navbar-right' id='menu-menu-1'><li  class='menu-item  current-menu-item '>
+                <a   href='/welcome' class='current-link  menu_link'  > Welcome</a> 
+                
+              </li></ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header><!-- end of header -->
+
+
+    <div id="wrapper" class="clearfix">
+        <div class="home-wrap clearfix">
+                <div class="panel panel-post custom-template panel-default">
+    <div class="panel-heading text-center"> WELCOME</div>
+    <div class="panel-body">
+        <header style="text-align: center; padding: 100px 20px;"><!-- Logo --> <img style="display: block; margin: 0 auto 40px;" src="http://facts.htb/randomfacts/logopage.png" alt="Facts Logo" width="180" height="140" /> <!-- Headline -->
+<h1 style="font-size: 3.5rem; margin-bottom: 30px; color: #222;">Discover Amazing Trivia!</h1>
+<!-- Subheading -->
+<p style="font-size: 1.5rem; max-width: 800px; margin: 0 auto 40px; line-height: 1.8; color: #444;">Looking to learn something new while killing a little time? You&rsquo;re in the right place! Explore a world of trivia, quirky knowledge, and surprising facts that will make you say, <em>&ldquo;Wow, I never knew that!&rdquo;</em></p>
+<!-- Call-to-action button --> <a href="/animal-ejected" class="btn" style="display: inline-block; background-color: #ff6f61; color: #fff; font-size: 1.3rem; padding: 18px 40px; border-radius: 8px; text-decoration: none; transition: background-color 0.0s;"> Start Exploring </a></header>
+    </div>
+</div>
+        </div><!-- END home-wrap -->
+    </div><!-- end of wrapper-->
+
+
+
+
+    <!-- +++++ Footer Section +++++ -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="text-2" class="widget-wrapper widget_text">
+                        <div style="max-width: 900px; margin: 60px auto; padding: 30px; font-family: Arial, sans-serif; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+<h3 style="margin-top: 0; color: #222;">Company Information</h3>
+<p style="color: #555; line-height: 1.6;"><strong>Facts &amp; Curiosities Ltd.</strong><br />742 Evergreen Insight Blvd<br />Suite 301<br />Brookhaven, CA 94016<br />United States</p>
+<p style="color: #555;"><strong>Email:</strong> contact@facts.htb<br /><strong>Phone:</strong> +1 (555) 123-4567</p>
+<div style="margin-top: 20px; display: flex; gap: 16px; align-items: center;"><a href="#" aria-label="Facebook"> <img style="width: 28px; height: 28px; display: block;" src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmFjZWJvb2s8L3RpdGxlPjxwYXRoIGQ9Ik05LjEwMSAyMy42OTF2LTcuOThINi42Mjd2LTMuNjY3aDIuNDc0di0xLjU4YzAtNC4wODUgMS44NDgtNS45NzggNS44NTgtNS45NzguNDAxIDAgLjk1NS4wNDIgMS40NjguMTAzYTguNjggOC42OCAwIDAgMSAxLjE0MS4xOTV2My4zMjVhOC42MjMgOC42MjMgMCAwIDAtLjY1My0uMDM2IDI2LjgwNSAyNi44MDUgMCAwIDAtLjczMy0uMDA5Yy0uNzA3IDAtMS4yNTkuMDk2LTEuNjc1LjMwOWExLjY4NiAxLjY4NiAwIDAgMC0uNjc5LjYyMmMtLjI1OC40Mi0uMzc0Ljk5NS0uMzc0IDEuNzUydjEuMjk3aDMuOTE5bC0uMzg2IDIuMTAzLS4yODcgMS41NjRoLTMuMjQ2djguMjQ1QzE5LjM5NiAyMy4yMzggMjQgMTguMTc5IDI0IDEyLjA0NGMwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuNjI4IDMuODc0IDEwLjM1IDkuMTAxIDExLjY0N1oiLz48L3N2Zz4=" alt="Facebook" /> </a> <a href="#" aria-label="X"> <img style="width: 28px; height: 28px; display: block;" src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WDwvdGl0bGU+PHBhdGggZD0iTTE4LjkwMSAxLjE1M2gzLjY4bC04LjA0IDkuMTlMMjQgMjIuODQ2aC03LjQwNmwtNS44LTcuNTg0LTYuNjM4IDcuNTg0SC40NzRsOC42LTkuODNMMCAxLjE1NGg3LjU5NGw1LjI0MyA2LjkzMlpNMTcuNjEgMjAuNjQ0aDIuMDM5TDYuNDg2IDMuMjRINC4yOThaIi8+PC9zdmc+" alt="X" /> </a> <a href="#" aria-label="Instagram"> <img style="width: 28px; height: 28px; display: block;" src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SW5zdGFncmFtPC90aXRsZT48cGF0aCBkPSJNNy4wMzAxLjA4NGMtMS4yNzY4LjA2MDItMi4xNDg3LjI2NC0yLjkxMS41NjM0LS43ODg4LjMwNzUtMS40NTc1LjcyLTIuMTIyOCAxLjM4NzctLjY2NTIuNjY3Ny0xLjA3NSAxLjMzNjgtMS4zODAyIDIuMTI3LS4yOTU0Ljc2MzgtLjQ5NTYgMS42MzY1LS41NTIgMi45MTQtLjA1NjQgMS4yNzc1LS4wNjg5IDEuNjg4Mi0uMDYyNiA0Ljk0Ny4wMDYyIDMuMjU4Ni4wMjA2IDMuNjY3MS4wODI1IDQuOTQ3My4wNjEgMS4yNzY1LjI2NCAyLjE0ODIuNTYzNSAyLjkxMDcuMzA4Ljc4ODkuNzIgMS40NTczIDEuMzg4IDIuMTIyOC42Njc5LjY2NTUgMS4zMzY1IDEuMDc0MyAyLjEyODUgMS4zOC43NjMyLjI5NSAxLjYzNjEuNDk2MSAyLjkxMzQuNTUyIDEuMjc3My4wNTYgMS42ODg0LjA2OSA0Ljk0NjIuMDYyNyAzLjI1NzgtLjAwNjIgMy42NjgtLjAyMDcgNC45NDc4LS4wODE0IDEuMjgtLjA2MDcgMi4xNDctLjI2NTIgMi45MDk4LS41NjMzLjc4ODktLjMwODYgMS40NTc4LS43MiAyLjEyMjgtMS4zODgxLjY2NS0uNjY4MiAxLjA3NDUtMS4zMzc4IDEuMzc5NS0yLjEyODQuMjk1Ny0uNzYzMi40OTY2LTEuNjM2LjU1Mi0yLjkxMjQuMDU2LTEuMjgwOS4wNjkyLTEuNjg5OC4wNjMtNC45NDgtLjAwNjMtMy4yNTgzLS4wMjEtMy42NjY4LS4wODE3LTQuOTQ2NS0uMDYwNy0xLjI3OTctLjI2NC0yLjE0ODctLjU2MzMtMi45MTE3LS4zMDg0LS43ODg5LS43Mi0xLjQ1NjgtMS4zODc2LTIuMTIyOEMyMS4yOTgyIDEuMzMgMjAuNjI4LjkyMDggMTkuODM3OC42MTY1IDE5LjA3NC4zMjEgMTguMjAxNy4xMTk3IDE2LjkyNDQuMDY0NSAxNS42NDcxLjAwOTMgMTUuMjM2LS4wMDUgMTEuOTc3LjAwMTQgOC43MTguMDA3NiA4LjMxLjAyMTUgNy4wMzAxLjA4MzltLjE0MDIgMjEuNjkzMmMtMS4xNy0uMDUwOS0xLjgwNTMtLjI0NTMtMi4yMjg3LS40MDgtLjU2MDYtLjIxNi0uOTYtLjQ3NzEtMS4zODE5LS44OTUtLjQyMi0uNDE3OC0uNjgxMS0uODE4Ni0uOS0xLjM3OC0uMTY0NC0uNDIzNC0uMzYyNC0xLjA1OC0uNDE3MS0yLjIyOC0uMDU5NS0xLjI2NDUtLjA3Mi0xLjY0NDItLjA3OS00Ljg0OC0uMDA3LTMuMjAzNy4wMDUzLTMuNTgzLjA2MDctNC44NDguMDUtMS4xNjkuMjQ1Ni0xLjgwNS40MDgtMi4yMjgyLjIxNi0uNTYxMy40NzYyLS45Ni44OTUtMS4zODE2LjQxODgtLjQyMTcuODE4NC0uNjgxNCAxLjM3ODMtLjkwMDMuNDIzLS4xNjUxIDEuMDU3NS0uMzYxNCAyLjIyNy0uNDE3MSAxLjI2NTUtLjA2IDEuNjQ0Ny0uMDcyIDQuODQ4LS4wNzkgMy4yMDMzLS4wMDcgMy41ODM1LjAwNSA0Ljg0OTUuMDYwOCAxLjE2OS4wNTA4IDEuODA1My4yNDQ1IDIuMjI4LjQwOC41NjA4LjIxNi45Ni40NzU0IDEuMzgxNi44OTUuNDIxNy40MTk0LjY4MTYuODE3Ni45MDA1IDEuMzc4Ny4xNjUzLjQyMTcuMzYxNyAxLjA1Ni40MTY5IDIuMjI2My4wNjAyIDEuMjY1NS4wNzM5IDEuNjQ1LjA3OTYgNC44NDguMDA1OCAzLjIwMy0uMDA1NSAzLjU4MzQtLjA2MSA0Ljg0OC0uMDUxIDEuMTctLjI0NSAxLjgwNTUtLjQwOCAyLjIyOTQtLjIxNi41NjA0LS40NzYzLjk2LS44OTU0IDEuMzgxNC0uNDE5LjQyMTUtLjgxODEuNjgxMS0xLjM3ODMuOS0uNDIyNC4xNjQ5LTEuMDU3Ny4zNjE3LTIuMjI2Mi40MTc0LTEuMjY1Ni4wNTk1LTEuNjQ0OC4wNzItNC44NDkzLjA3OS0zLjIwNDUuMDA3LTMuNTgyNS0uMDA2LTQuODQ4LS4wNjA4TTE2Ljk1MyA1LjU4NjRBMS40NCAxLjQ0IDAgMSAwIDE4LjM5IDQuMTQ0YTEuNDQgMS40NCAwIDAgMC0xLjQzNyAxLjQ0MjRNNS44Mzg1IDEyLjAxMmMuMDA2NyAzLjQwMzIgMi43NzA2IDYuMTU1NyA2LjE3MyA2LjE0OTMgMy40MDI2LS4wMDY1IDYuMTU3LTIuNzcwMSA2LjE1MDYtNi4xNzMzLS4wMDY1LTMuNDAzMi0yLjc3MS02LjE1NjUtNi4xNzQtNi4xNDk4LTMuNDAzLjAwNjctNi4xNTYgMi43NzEtNi4xNDk2IDYuMTczOE04IDEyLjAwNzdhNCA0IDAgMSAxIDQuMDA4IDMuOTkyMUEzLjk5OTYgMy45OTk2IDAgMCAxIDggMTIuMDA3NyIvPjwvc3ZnPg==" alt="Instagram" /> </a></div>
+</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="text-3" class="widget-wrapper widget_text">
+                        <div style="max-width: 900px; margin: 60px auto;">
+<p>⭐⭐⭐⭐⭐<br />&ldquo;Perfect for trivia nights and coffee breaks. My coworkers are jealous. &ndash; Bloomberg&rdquo;</p>
+</div>
+<div style="max-width: 900px; margin: 60px auto;">
+<p>⭐⭐⭐⭐<br />&ldquo;Some good info here, waiting for more updates. &ndash; Washington Post&rdquo;</p>
+</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="text-4" class="widget-wrapper widget_text">
+                        <div style="max-width: 900px; margin: 60px auto;">
+<p>⭐⭐⭐⭐⭐<br />&ldquo;I never thought learning about fast dolphins would be this fun! &ndash; New York Times&rdquo;</p>
+</div>
+<div style="max-width: 900px; margin: 60px auto;">
+<p>⭐⭐⭐⭐⭐<br />&ldquo;I'm better informed and entertained now &ndash; Daily Bugle&rdquo;</p>
+</div>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </footer><!-- end #footer -->
+
+</body>
+</html>
