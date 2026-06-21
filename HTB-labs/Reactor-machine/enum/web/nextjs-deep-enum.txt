@@ -1,0 +1,17 @@
++----------------------------------------------------------------+
+|                            nextr4y                             |
+|                  github.com/rodrigopv/nextr4y                  |
++----------------------------------------------------------------+
+Version: development | Commit: n/a | Date: n/a
+
+Scan Results for: http://10.129.34.75:3000
+Is Next.js: true
+Build ID: 
+Detected Next.js Version: 19.0.0-rc-66855b96-20241106
+Detected React Version: Unknown
+Asset Prefix: 
+Calculated Asset Base URL: http://10.129.34.75:3000
+Build Manifest Found: false
+Build Manifest Executed OK: false
+Execution Error: 
+scanner: __NEXT_DATA__ processing error: __NEXT_DATA__ script tag not found

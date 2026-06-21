@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Fri Jun 19 23:01:56 2026 as: nmap -p- -T4 --min-rate 2000 --open -oN scan/reactor--tcp-full.txt 10.129.32.211
+Nmap scan report for 10.129.32.211
+Host is up (0.17s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3000/tcp open  ppp
+
+# Nmap done at Fri Jun 19 23:02:20 2026 -- 1 IP address (1 host up) scanned in 24.08 seconds

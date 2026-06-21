@@ -1,0 +1,160 @@
+# Reactor
+
+- **Diff:** Easy
+- **OS:** Linux
+- **IP:** 10.129.32.211
+- **Start:** 2026-06-19 22:58
+- **Scope:** User and Root
+
+---
+
+## After Every Finding — 4 Questions
+
+1. **What technology is this?** (product + version, not just port)
+2. **What do I gain if this works?** (shell / creds / file read / pivot)
+3. **What is the logical next step?** (one chain link forward)
+4. **Did I write result + next objective in Timeline?**
+
+---
+
+## Workflow Log
+
+### 1. Host discovery
+
+```bash
+ping -c 2 10.129.32.211
+```
+
+**Result:**
+Host is on
+
+**Next:**
+Discover all open ports and service enum
+
+---
+
+### 2. Service enum
+
+```bash
+sudo nmap -p- -T4 --min-rate 2000 --open 10.129.32.211 -oN scan/reactor--tcp-full.txt
+sudo nmap -p <ports> -Pn -sV -sC 10.129.32.211 -oN scan/reactor--deep.txt
+```
+
+**Result:**
+@file: scan/reactor--tcp-full.txt
+- 2 open ports: 22 (ssh) and 3000 (ppp)
+
+**Stack notes:**
+@file: scan/reactor--deep.txt
+- ssh: OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 (Ubuntu Linux; protocol 2.0)
+- ppp?: Next.js web app due to "X-Powered-By: Next.js"
+- On Next.js web, only GET, HEAD are allowed due to "Allow: GET, Allow: HEAD"
+
+**Next:**
+Performing web enum and footprinting. 
+
+---
+
+### 3. Web enum
+
+```bash
+# add to /etc/hosts if vhost needed
+curl -I http://<target>
+curl -s http://<target> -o enum/web/base.html
+grep -iE 'session|csrf|theme|camaleon|wp-|drupal|laravel' enum/web/base.html
+```
+
+**Fingerprint (app layer first, proxy second):**
+
+curl -s http://10.129.32.211:3000/ -o enum/web/base.html
+
+grep -iE 'session|csrf|theme|camaleon|wp-|drupal|laravel' enum/web/base.html
+==Returned no configuration.
+
+**Web information gathering**
+The web page show the physical state of a reactor with metrics and information.
+2 online people out of 3 --> Log in to the other offline account
+System info: CORE MONITORING SYSTEM v3.2.1 | FACILITY: SITE-7 | CLASSIFICATION: RESTRICTED
+System log showing reactor scheduling
+
+
+**Admin / register / upload surfaces:**
+
+**Next:**
+The page was showing information of the reactor only. Suspecting that there are interfaces where users are managed and there might be a stack that allow upstream information that can be injected vulnerable
+-> vhost, dir enum
+
+**Directory enum**
+```bash
+eren@magi:~/cybersecurity/HTB-labs/Reactor-machine % gobuster dir --wordlist /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt --url http://10.129.32.211:3000 -o enum/web/dir-enum.txt --threads 100
+```
+
+
+---
+
+### 4. Service-specific enum
+
+**Service:**
+
+**Commands:**
+
+**Result:**
+
+**Next:**
+
+---
+
+### 5. Vulnerability research
+
+**Product + version identified:**
+
+**CVEs considered (ranked):**
+
+| CVE | Auth required? | Yields | Chosen? |
+|-----|----------------|--------|---------|
+| | | | |
+
+**Next:**
+
+---
+
+### 6. Exploitation
+
+**Vector:**
+
+**Commands / PoC:**
+
+**Gained:**
+
+**Next:**
+
+---
+
+### 7. Post-exploit
+
+```bash
+id; whoami; hostname
+sudo -l
+```
+
+**Loot collected:**
+
+**Next:**
+
+---
+
+### 8. Privilege escalation
+
+**Vector:**
+
+**Commands:**
+
+**Root flag:**
+
+---
+
+## Timeline (quick reference)
+
+| Time | Stage | Action | Result | Next objective |
+|------|-------|--------|--------|----------------|
+| | | | | |
